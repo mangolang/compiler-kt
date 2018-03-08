@@ -2,13 +2,7 @@
 Mango
 ===============================
 
-Mango is a programming language that is currently in development.
+This is an old version of the compiler. The new version can be found at https://github.com/mangolang/compiler.
 
-https://mangolang.org/
 
-How to use
--------------------------------
 
-The project requires Gradle and Kotlin (multi-platform). To compile, test and run on JVM and JS:
-
-    gradle run
