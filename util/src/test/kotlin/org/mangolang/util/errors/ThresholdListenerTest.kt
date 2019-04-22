@@ -27,8 +27,6 @@ internal class MockCompileWarning : CompileWarning {
  */
 class ThresholdListenerTest {
 
-    // LATER: add tests for loggers when those are added
-
     @Test
     fun testMaximumErrors() {
         val listener = ThresholdedListener(2, 2)

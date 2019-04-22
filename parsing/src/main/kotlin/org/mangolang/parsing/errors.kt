@@ -14,7 +14,6 @@ class SyntaxError(val msg: Message, val token: Token?) : CompileError {
     override fun brief(): CharSequence = "syntax error: $msg"
 
     override fun detailed(): CharSequence {
-        // LATER: do the context information better
         var text = "syntax error: $msg"
         if (token != null) {
             text += "\nnear input ${token.asText()}"

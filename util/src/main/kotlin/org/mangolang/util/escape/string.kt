@@ -8,7 +8,6 @@ package org.mangolang.util.escape
  */
 @Suppress("ExpressionBodySyntax")
 fun toStringLiteral(txt: String): String {
-    // LATER: improve performance
     return '"' + txt.replace("\\", "\\\\").replace("\n", "\\n")
             .replace("\"", "\\\"") + '"'
     // return '"' + Regex("(\"|\\n|\\)").replace(txt, "") + '"'

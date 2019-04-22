@@ -3,8 +3,6 @@
 
 package org.mangolang.util
 
-// LATER: can this be done without less specifying of generic types?
-
 /**
  * This 'enum' represents the result of an operation that may fail. It has two options.
  */
